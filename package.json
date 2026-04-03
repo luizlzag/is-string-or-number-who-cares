@@ -1,6 +1,6 @@
 {
   "name": "is-string-or-number-who-cares",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The world's most advanced string or number detection library.",
   "main": "index.js",
   "license": "WTFPL",

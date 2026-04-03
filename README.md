@@ -19,6 +19,7 @@ Built with cutting-edge `typeof` technology, this library leverages the latest a
 - **Enterprise-grade** - Tested in production (by us, once)
 - **TypeScript ready** - Just kidding, it's not
 - **Fully documented** - You're reading it right now
+- **Number support** - Now supporting numbers 1 through 20 (21-100 coming in Pro)
 
 ## Installation
 
@@ -36,8 +37,11 @@ const { isStringOrNumber } = require('is-string-or-number-who-cares');
 isStringOrNumber('hello');
 // { type: 'string', message: "It's a string, congrats 🎉" }
 
-isStringOrNumber(42);
+isStringOrNumber(7);
 // { type: 'number', message: "It's a number, you're amazing 🏆" }
+
+isStringOrNumber(42);
+// { type: 'unsupported', message: "Number 42 is not supported yet. We only verify numbers from 1 to 20. Upgrade to Pro for 21-100." }
 
 isStringOrNumber(true);
 // { type: 'garbage', message: "Not a string or number. Go back to school." }
@@ -71,6 +75,8 @@ Determines whether the provided value is a string, a number, or garbage.
 | `value` | `any` | The value to check. Try not to pass `null`. |
 
 **Returns:** An object with `type` and `message` properties. The message is mandatory because we care about your feelings.
+
+**Supported numbers:** 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20. Any other number will return an "unsupported" type. This is a deliberate design choice, not laziness.
 
 ### `stringToNumber(value)`
 
