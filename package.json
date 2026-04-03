@@ -1,0 +1,9 @@
+{
+  "name": "is-string-or-number-who-cares",
+  "version": "1.0.0",
+  "description": "Verifica se é string ou number. Ninguém pediu, mas tá aí.",
+  "main": "index.js",
+  "license": "WTFPL",
+  "keywords": ["string", "number", "useless", "who-cares"],
+  "author": "luizlzag <luiz.sa.cruz@gmail.com>"
+}
