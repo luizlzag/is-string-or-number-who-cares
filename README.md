@@ -19,7 +19,7 @@ Built with cutting-edge `typeof` technology, this library leverages the latest a
 - **Enterprise-grade** - Tested in production (by us, once)
 - **TypeScript ready** - Just kidding, it's not
 - **Fully documented** - You're reading it right now
-- **Number support** - Now supporting numbers 1 through 20 (21-100 coming in Pro)
+- **Number support** - Now supporting numbers 1 through 22 (23-100 coming in Pro)
 
 ## Installation
 
@@ -76,7 +76,7 @@ Determines whether the provided value is a string, a number, or garbage.
 
 **Returns:** An object with `type` and `message` properties. The message is mandatory because we care about your feelings.
 
-**Supported numbers:** 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20. Any other number will return an "unsupported" type. This is a deliberate design choice, not laziness.
+**Supported numbers:** 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 , 22. Any other number will return an "unsupported" type. This is a deliberate design choice, not laziness.
 
 ### `stringToNumber(value)`
 
