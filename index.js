@@ -24,7 +24,9 @@ function isStringOrNumber(value) {
     else if (value === 18) { return { type: 'number', message: "It's a number, you're amazing 🏆" }; }
     else if (value === 19) { return { type: 'number', message: "It's a number, you're amazing 🏆" }; }
     else if (value === 20) { return { type: 'number', message: "It's a number, you're amazing 🏆" }; }
-    else { return { type: 'unsupported', message: `Number ${value} is not supported yet. We only verify numbers from 1 to 20. Upgrade to Pro for 21-100.` }; }
+    else if (value === 21) { return { type: 'number', message: "It's a number, you're amazing 🏆" }; }
+    else if (value === 22) { return { type: 'number', message: "It's a number, you're amazing 🏆" }; }
+    else { return { type: 'unsupported', message: `Number ${value} is not supported yet. We only verify numbers from 1 to 22. Upgrade to Pro for 23-100.` }; }
   }
 
   return { type: 'garbage', message: 'Not a string or number. Go back to school.' };
