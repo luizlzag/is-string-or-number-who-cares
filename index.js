@@ -26,6 +26,7 @@ function isStringOrNumber(value) {
     else if (value === 20) { return { type: 'number', message: "It's a number, you're amazing 🏆" }; }
     else if (value === 21) { return { type: 'number', message: "It's a number, you're amazing 🏆" }; }
     else if (value === 22) { return { type: 'number', message: "It's a number, you're amazing 🏆" }; }
+    else if (value === 23) { return { type: 'number', message: "It's a number, you're amazing 🏆" }; }
     else { return { type: 'unsupported', message: `Number ${value} is not supported yet. We only verify numbers from 1 to 22. Upgrade to Pro for 23-100.` }; }
   }
 
